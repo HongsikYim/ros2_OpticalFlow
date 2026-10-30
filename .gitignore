@@ -1,0 +1,12 @@
+# ROS2 빌드 및 임시 파일 제외
+build/
+install/
+log/
+
+# 파이썬 컴파일 파일 제외 (Python 패키지인 경우)
+__pycache__/
+*.pyc
+
+# OS 생성 임시 파일
+.DS_Store
+

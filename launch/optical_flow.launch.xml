@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <node
+    pkg="my_opencv_tutorials"
+    exec="img_pub"
+    name="img_publisher"
+    output="screen"
+  />
+
+  <node
+    pkg="my_opencv_tutorials"
+    exec="optical_flow"
+    name="optical_flow_publisher"
+    output="screen"
+  />
+</launch>
